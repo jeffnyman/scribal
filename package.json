@@ -1,0 +1,33 @@
+{
+  "name": "scribal",
+  "version": "1.0.0",
+  "description": "Test Specification Display Generator",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "scribal": "./bin/scribal.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffnyman/scribal.git"
+  },
+  "author": {
+    "name": "Jeff Nyman",
+    "email": "jeffnyman@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jeffnyman/scribal/issues"
+  },
+  "homepage": "https://github.com/jeffnyman/scribal#readme",
+  "dependencies": {
+    "scribal-reader": "^1.0.0",
+    "scribal-html": "^1.0.0",
+    "commander": "^2.9.0"
+  }
+}
